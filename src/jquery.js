@@ -1,4 +1,4 @@
-window.jQuery = function (selectorOrArray) {
+window.$ = window.jQuery = function (selectorOrArray) {
     // 重载
     let elements
     if (typeof selectorOrArray === 'string') {
